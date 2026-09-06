@@ -1,0 +1,39 @@
+Zhetysu Go is a local transportation and delivery marketplace for residents, visitors, drivers, couriers, and venues in Usharal and the Alakol District, Kazakhstan. It supports local taxi rides, courier requests, food orders from participating venues, and intercity seat reservations. The app provides order status, driver location, notifications, and order/trip chat. It sells no digital content.
+
+TESTED DEVICE
+iPhone 14 Pro Max, iOS 26.6.1.
+
+REVIEW ACCESS
+The production backend will remain online. No sample files or special configuration are required. Location may be denied and addresses entered manually. The password for all accounts is provided in the App Review Information password field.
+
+Passenger: +77000000001
+Driver/Courier: +77000000002
+Venue/Merchant: +77000000003
+
+Passenger: sign in and choose Taxi, Courier, Food, or Intercity.
+Driver/Courier: sign in, select the relevant work mode, go online where applicable, accept a request, and update its status. Background location is requested only after the driver explicitly goes online.
+Venue: sign in, review and accept a food order, start preparation, mark it ready, and request a driver.
+
+Account deletion is at the bottom of every role's profile. In chat, press and hold another user's message to report it or block the sender.
+
+EXTERNAL SERVICES
+- Render: API hosting, PostgreSQL, Redis realtime infrastructure, and public legal/support pages.
+- Google Maps Platform/native iOS mapping: maps, address lookup, routes, and location features.
+- Telegram Bot API: phone verification for normal customer registration. Dedicated review accounts bypass Telegram verification.
+- Apple Push Notification service through Expo notification tooling: trip/order notifications.
+- Expo EAS: app build/distribution tooling.
+
+There is no AI service or third-party payment processor. Physical services are paid directly by cash or Kaspi transfer; the app has no subscriptions or in-app purchases.
+
+REGIONS
+The service currently targets Usharal and the Alakol District, with intercity routes offered by participating drivers. The app does not change features based on App Store region. Availability depends on local participating drivers, couriers, routes, and venues.
+
+REGULATED SERVICES / CONTENT
+The app is not in a highly regulated industry. Venue names, menus, prices, and images are supplied or authorized by participating venues. There is no protected third-party streaming or digital media content.
+
+PERMISSIONS / UGC
+Foreground location is requested to select pickup and destination locations. Driver background location is requested only when a driver goes online. User-generated content is limited to order/trip chat, with press-and-hold reporting and blocking controls.
+
+Support: zhetysugo@internet.ru
+Privacy: https://taxivillage-docs-xp2f.onrender.com/privacy-policy.html
+Deletion: https://taxivillage-docs-xp2f.onrender.com/delete-account.html

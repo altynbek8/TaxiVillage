@@ -38,3 +38,6 @@ backend/uploads/*
 
 repomix-output.xml
 запуск
+
+# App Review material: keep the notes, not the 30 MB recording.
+app-review/*.mp4
